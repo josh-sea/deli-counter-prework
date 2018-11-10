@@ -1,5 +1,6 @@
 katz_deli = []
 
+# current line list method
 def line(array)
   if array.length == 0
     puts "The line is currently empty."
@@ -15,6 +16,7 @@ def take_a_number(array,name)
   puts "Welcome, #{name}. You are number #{array.length+1} in line"
 end
 
+# now serving method
 def now_serving(array)
   if array.length == 0
     puts "There is nobody waiting to be served!"
