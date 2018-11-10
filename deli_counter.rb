@@ -22,7 +22,7 @@ def now_serving(array)
     array.shift(array[0])
   end
 end
-  line(katz_deli) #=> "The line is currently: 1. Ada 2. Grace 3. Kent"
+#  line(katz_deli) #=> "The line is currently: 1. Ada 2. Grace 3. Kent"
  
   now_serving(katz_deli) #=> "Currently serving Ada."
  
