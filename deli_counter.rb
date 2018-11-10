@@ -15,8 +15,13 @@ def take_a_number(array,name)
 end
 
 def now_serving(array)
-  puts "Currently serving "
- 
+  if array.length == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{array[0]}."
+    array.shift(array[0])
+  end
+end
   line(katz_deli) #=> "The line is currently: 1. Ada 2. Grace 3. Kent"
  
   now_serving(katz_deli) #=> "Currently serving Ada."
