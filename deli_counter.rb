@@ -7,7 +7,7 @@ def line(array)
   else
     new_array=[]
     for i in 0..array.length
-      new_array.push("#{i+1}. #{array[i]}")
+      new_array.push(i+1 array[i])
     end
     puts "The line is currently: #{new_array}"
   end
