@@ -4,8 +4,9 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else
+    new_array=[]
     for i in 0..array.length
-      new_array 
+      new_array.push(array[i]) 
   end
 end
 
