@@ -11,8 +11,7 @@ def line(array)
 end
 
 def take_a_number(array,name)
-  puts "Welcome, #{name}. You are number in line"
-  
+  puts "Welcome, #{name}. You are number #{array.length+1} in line"
 end
 
   take_a_number(katz_deli, "Ada") #=> Welcome, Ada. You are number 1 in line.
